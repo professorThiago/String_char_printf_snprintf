@@ -98,6 +98,10 @@ else
   Serial.println("Os textos sao diferentes");
 }
 
+//strcmp analiza a ordem lexica das palavras, se a primeira palavra for menor
+//que a primeira o valore retornado será menor que zero, se a primera for maior
+// o retorno será maior que zero
+
 // ======================================================
 // TEXTO EDITAVEL COM char[]
 // ======================================================
